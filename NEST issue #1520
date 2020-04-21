@@ -1,0 +1,721 @@
+
+
+Phase 1: Testing if SLI can execute scripts and report errors
+-------------------------------------------------------------
+  Running test 'selftests/test_pass.sli'... Success
+  Running test 'selftests/test_goodhandler.sli'... Success
+  Running test 'selftests/test_lazyhandler.sli'... Success
+  Running test 'selftests/test_fail.sli'... Success
+  Running test 'selftests/test_stop.sli'... Success
+  Running test 'selftests/test_badhandler.sli'... Success
+
+Phase 2: Testing SLI's unittest library
+---------------------------------------
+  Running test 'selftests/test_pass_or_die.sli'... Success
+  Running test 'selftests/test_assert_or_die_b.sli'... Success
+  Running test 'selftests/test_assert_or_die_p.sli'... Success
+  Running test 'selftests/test_fail_or_die.sli'... Success
+  Running test 'selftests/test_crash_or_die.sli'... Success
+  Running test 'selftests/test_failbutnocrash_or_die_crash.sli'... Success
+  Running test 'selftests/test_failbutnocrash_or_die_pass.sli'... Success
+  Running test 'selftests/test_passorfailbutnocrash_or_die.sli'... Success
+
+Phase 3: Running NEST unit tests
+--------------------------------
+  Running test 'unittests/issue-463.sli'... Success
+  Running test 'unittests/issue-565.sli'... Success
+  Running test 'unittests/model_node_init.sli'... Success
+  Running test 'unittests/test_DoubleVector_IntVector.sli'... Success
+  Running test 'unittests/test_GetConnections.sli'... Success
+  Running test 'unittests/test_Map.sli'... Success
+  Running test 'unittests/test_MapIndexed.sli'... Success
+  Running test 'unittests/test_ac_generator.sli'... Success
+  Running test 'unittests/test_add_freeze_thaw.sli'... Success
+  Running test 'unittests/test_aeif_cond_alpha_multisynapse.sli'... Success
+  Running test 'unittests/test_aeif_cond_beta_multisynapse.sli'... Success
+  Running test 'unittests/test_amat2_psc_exp.sli'... Success
+  Running test 'unittests/test_bernoulli_synapse.sli'... Success
+  Running test 'unittests/test_binary.sli'... Success
+  Running test 'unittests/test_common_props_setting.sli'... Success
+  Running test 'unittests/test_compare_delta.sli'... Success
+  Running test 'unittests/test_cond_exp_models.sli'... Success
+  Running test 'unittests/test_connect.sli'... Success
+  Running test 'unittests/test_connect_after_simulate.sli'... Success
+  Running test 'unittests/test_connect_with_threads.sli'... Success
+  Running test 'unittests/test_cont_delay_synapse.sli'... Success
+  Running test 'unittests/test_copymodel.sli'... Success
+  Running test 'unittests/test_corr_det.sli'... Success
+  Running test 'unittests/test_corr_matrix_det.sli'... Success
+  Running test 'unittests/test_correlospinmatrix_detector.sli'... Success
+  Running test 'unittests/test_count_connections.sli'... Success
+  Running test 'unittests/test_cva.sli'... Success
+  Running test 'unittests/test_cvi.sli'... Success
+  Running test 'unittests/test_dcgen_versus_I_e.sli'... Success
+  Running test 'unittests/test_default_delays_weights.sli'... Success
+  Running test 'unittests/test_delay_after_res_change.sli'... Success
+  Running test 'unittests/test_delay_check.sli'... Success
+  Running test 'unittests/test_dirname.sli'... Success
+  Running test 'unittests/test_distance.sli'... Success
+  Running test 'unittests/test_fast_operators.sli'... Success
+  Running test 'unittests/test_free_mask_circ_anchor_00.sli'... Success
+  Running test 'unittests/test_free_mask_circ_anchor_01.sli'... Success
+  Running test 'unittests/test_free_mask_circ_anchor_10.sli'... Success
+  Running test 'unittests/test_free_mask_circ_anchor_11.sli'... Success
+  Running test 'unittests/test_free_mask_donut_anchor_00.sli'... Success
+  Running test 'unittests/test_free_mask_donut_anchor_01.sli'... Success
+  Running test 'unittests/test_free_mask_donut_anchor_10.sli'... Success
+  Running test 'unittests/test_free_mask_donut_anchor_11.sli'... Success
+  Running test 'unittests/test_free_mask_rect_00.sli'... Success
+  Running test 'unittests/test_free_mask_rect_01.sli'... Success
+  Running test 'unittests/test_free_mask_rect_11.sli'... Success
+  Running test 'unittests/test_free_mask_rect_13.sli'... Success
+  Running test 'unittests/test_gamma_sup_generator.sli'... Success
+  Running test 'unittests/test_gap_junction.sli'... Success
+  Running test 'unittests/test_gif_cond_exp.sli'... Success
+  Running test 'unittests/test_gif_cond_exp_multisynapse.sli'... Success
+  Running test 'unittests/test_gif_pop_psc_exp.sli'... Success
+  Running test 'unittests/test_gif_psc_exp.sli'... Success
+  Running test 'unittests/test_gif_psc_exp_multisynapse.sli'... Success
+  Running test 'unittests/test_ginzburg_and_mcculloch.sli'... Success
+  Running test 'unittests/test_hh_cond_beta_gap_traub.sli'... Success
+  Running test 'unittests/test_hh_cond_exp_traub.sli'... Success
+  Running test 'unittests/test_hh_psc_alpha_gap.sli'... Success
+  Running test 'unittests/test_hpc_synapse.sli'... Success
+  Running test 'unittests/test_iaf.sli'... Success
+  Running test 'unittests/test_iaf_1to2.sli'... Success
+  Running test 'unittests/test_iaf_1to2_default_delay.sli'... Success
+  Running test 'unittests/test_iaf_1to2_ex.sli'... Success
+  Running test 'unittests/test_iaf_dc.sli'... Success
+  Running test 'unittests/test_iaf_dc_aligned.sli'... Success
+  Running test 'unittests/test_iaf_dc_aligned_automatic.sli'... Success
+  Running test 'unittests/test_iaf_dc_aligned_delay.sli'... Success
+  Running test 'unittests/test_iaf_dc_aligned_stop.sli'... Success
+  Running test 'unittests/test_iaf_fudge.sli'... Success
+  Running test 'unittests/test_iaf_i0.sli'... Success
+  Running test 'unittests/test_iaf_i0_refractory.sli'... Success
+  Running test 'unittests/test_iaf_min_delay_create.sli'... Success
+  Running test 'unittests/test_iaf_min_delay_set.sli'... Success
+  Running test 'unittests/test_iaf_min_delay_simblocks.sli'... Success
+  Running test 'unittests/test_iaf_ps_dc_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_ps_dc_t_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_ps_psp_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_ps_psp_poisson_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_ps_psp_poisson_generator_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_ps_psp_poisson_spike_accuracy.sli'... Success
+  Running test 'unittests/test_iaf_psc_alpha_multisynapse.sli'... Success
+  Running test 'unittests/test_iaf_psc_exp.sli'... Success
+  Running test 'unittests/test_iaf_psc_exp_multisynapse.sli'... Success
+  Running test 'unittests/test_iaf_psc_exp_ps.sli'... Success
+  Running test 'unittests/test_iaf_psc_exp_ps_lossless.sli'... Success
+  Running test 'unittests/test_iaf_psp.sli'... Success
+  Running test 'unittests/test_iaf_psp_normalized.sli'... Success
+  Running test 'unittests/test_iaf_psp_peak.sli'... Success
+  Running test 'unittests/test_inh_stdp_synapse.sli'... Success
+  Running test 'unittests/test_inhomogeneous_poisson_generator.sli'... Success
+  Running test 'unittests/test_lambertw.sli'... Success
+  Running test 'unittests/test_mat2_psc_exp.sli'... Success
+  Running test 'unittests/test_max_delay.sli'... Success
+  Running test 'unittests/test_message.sli'... Success
+  Running test 'unittests/test_min_delay.sli'... Success
+  Running test 'unittests/test_min_delay_tics_reset.sli'... Success
+  Running test 'unittests/test_mip_corrdet.sli'... Success
+  Running test 'unittests/test_multimeter.sli'... Success
+  Running test 'unittests/test_multimeter_freeze_thaw.sli'... Success
+  Running test 'unittests/test_multimeter_offset.sli'... Success
+  Running test 'unittests/test_multimeter_stepping.sli'... Success
+  Running test 'unittests/test_multimeter_support.sli'... Success
+  Running test 'unittests/test_multiple_multimeter.sli'... Success
+  Running test 'unittests/test_multiple_random_source_stepping.sli'... Success
+  Running test 'unittests/test_multisynapse_models.sli'... Success
+  Running test 'unittests/test_multithreading.sli'... Success
+  Running test 'unittests/test_neurons_handle_multiplicity.sli'... Success
+  Running test 'unittests/test_node_collection.sli'... Running '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest' '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/share/doc/nest/unittests/test_node_collection.sli'
+[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
+[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
+NEST master@79f8df296 (C) 2004 The NEST Initiative
+
+Apr 21 23:25:09 SLI [Progress]:
+    No node collection without nodes
+
+Apr 21 23:25:09 SLI [Progress]:
+    Create returns NodeCollection
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check length of NodeCollections from Create
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check that NodeCollection can be converted to array
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check array can be converted to NodeCollection for existing neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check intvector can be converted to NodeCollection for existing neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check unsorted array can be converted to NodeCollection for existing
+    neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check unsorted array can be converted to NodeCollection for existing
+    neurons, multiple types
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check contiguous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check contiguous join with inverted order
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check non-contiguous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check inhomogeneous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Illegal join with different metadata
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check create with multiple equal node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join primitives with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join composites with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join primitive with composite with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join composite with primitive with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check element access
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check too large positive index fails
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check too large negative index fails
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test iteration with forall
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test iteration with Map
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test slicing with Take, primitive
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test slicing with Take, composite
+
+Apr 21 23:25:09 SLI [Progress]:
+    More complex Take example, checking result in various ways
+
+Apr 21 23:25:09 SLI [Progress]:
+    Slice attempt with out-of-bound value 1
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with out-of-bound value 2
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with out-of-bound value 3
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with negative step
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select all
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select none
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select some
+
+Apr 21 23:25:10 SLI [Progress]:
+    Element membership
+
+Apr 21 23:25:10 SLI [Progress]:
+    GetStatus on collection
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection with multiple dicts
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection with multiple dicts error
+
+Apr 21 23:25:10 SLI [Progress]:
+    Basic Connect test
+
+Apr 21 23:25:10 SLI [Progress]:
+    Check connect with sliced composite with step>1
+NodeCollection(metadata=None,
+               model=proxynode, size=16, first=0, last=196, step=6;
+               model=iaf_psc_exp, size=3, first=202, last=214, step=6)
+
+Apr 21 23:25:10 SLI [Progress]:
+    Check that Connect checks NC validity, first arg
+
+Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+    Code block failed to raise an error.
+    Code block:
+    {<< >> begin (Check that Connect checks NC validity, first arg) M_PROGRESSmessage ResetKernel /n /iaf_psc_alpha 5 Create def ResetKernel /m /iaf_psc_alpha 5 Create def n m Connect end}
+
+Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+    Exiting with code 3.
+Failed: tested code block failed to fail
+==================================================
+Following is the full output of the test:
+==================================================
+Running '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest' '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/share/doc/nest/unittests/test_node_collection.sli'
+[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
+[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
+NEST master@79f8df296 (C) 2004 The NEST Initiative
+
+Apr 21 23:25:09 SLI [Progress]:
+    No node collection without nodes
+
+Apr 21 23:25:09 SLI [Progress]:
+    Create returns NodeCollection
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check length of NodeCollections from Create
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check that NodeCollection can be converted to array
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check array can be converted to NodeCollection for existing neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check intvector can be converted to NodeCollection for existing neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check unsorted array can be converted to NodeCollection for existing
+    neurons
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check unsorted array can be converted to NodeCollection for existing
+    neurons, multiple types
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check contiguous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check contiguous join with inverted order
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check non-contiguous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check inhomogeneous join
+
+Apr 21 23:25:09 SLI [Progress]:
+    Illegal join with different metadata
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check create with multiple equal node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join primitives with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join composites with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join primitive with composite with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check join composite with primitive with overlapping node IDs
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check element access
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check too large positive index fails
+
+Apr 21 23:25:09 SLI [Progress]:
+    Check too large negative index fails
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test iteration with forall
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test iteration with Map
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test slicing with Take, primitive
+
+Apr 21 23:25:09 SLI [Progress]:
+    Test slicing with Take, composite
+
+Apr 21 23:25:09 SLI [Progress]:
+    More complex Take example, checking result in various ways
+
+Apr 21 23:25:09 SLI [Progress]:
+    Slice attempt with out-of-bound value 1
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with out-of-bound value 2
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with out-of-bound value 3
+
+Apr 21 23:25:10 SLI [Progress]:
+    Slice attempt with negative step
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select all
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select none
+
+Apr 21 23:25:10 SLI [Progress]:
+    Test select some
+
+Apr 21 23:25:10 SLI [Progress]:
+    Element membership
+
+Apr 21 23:25:10 SLI [Progress]:
+    GetStatus on collection
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection with multiple dicts
+
+Apr 21 23:25:10 SLI [Progress]:
+    SetStatus on collection with multiple dicts error
+
+Apr 21 23:25:10 SLI [Progress]:
+    Basic Connect test
+
+Apr 21 23:25:10 SLI [Progress]:
+    Check connect with sliced composite with step>1
+NodeCollection(metadata=None,
+               model=proxynode, size=16, first=0, last=196, step=6;
+               model=iaf_psc_exp, size=3, first=202, last=214, step=6)
+
+Apr 21 23:25:10 SLI [Progress]:
+    Check that Connect checks NC validity, first arg
+
+Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+    Code block failed to raise an error.
+    Code block:
+    {<< >> begin (Check that Connect checks NC validity, first arg) M_PROGRESSmessage ResetKernel /n /iaf_psc_alpha 5 Create def ResetKernel /m /iaf_psc_alpha 5 Create def n m Connect end}
+
+Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+    Exiting with code 3.
+==================================================
+  Running test 'unittests/test_noise_generator.sli'... Success
+  Running test 'unittests/test_oversize_mask.sli'... Success
+  Running test 'unittests/test_poisson_generator_campbell_alpha.sli'... Success
+  Running test 'unittests/test_poisson_generator_ps.sli'... Success
+  Running test 'unittests/test_poisson_ps_intervals.sli'... Success
+  Running test 'unittests/test_poisson_ps_min_interval.sli'... Success
+  Running test 'unittests/test_pp_pop_psc_delta.sli'... Success
+  Running test 'unittests/test_pp_psc_delta.sli'... Success
+  Running test 'unittests/test_ppd_sup_generator.sli'... Success
+  Running test 'unittests/test_psp_amplitude_consistency.sli'... Success
+  Running test 'unittests/test_pulsepacket_generator.sli'... Success
+  Running test 'unittests/test_random.sli'... Success
+  Running test 'unittests/test_random_binomial.sli'... Success
+  Running test 'unittests/test_random_clipped.sli'... Success
+  Running test 'unittests/test_rate_connections.sli'... Success
+  Running test 'unittests/test_rdv_discreteness.sli'... Success
+  Running test 'unittests/test_rdv_param_setting.sli'... Success
+  Running test 'unittests/test_reg_mask_circ_anchor_00.sli'... Success
+  Running test 'unittests/test_reg_mask_circ_anchor_01.sli'... Success
+  Running test 'unittests/test_reg_mask_circ_anchor_10.sli'... Success
+  Running test 'unittests/test_reg_mask_circ_anchor_11.sli'... Success
+  Running test 'unittests/test_reg_mask_donut_anchor_00.sli'... Success
+  Running test 'unittests/test_reg_mask_donut_anchor_01.sli'... Success
+  Running test 'unittests/test_reg_mask_donut_anchor_10.sli'... Success
+  Running test 'unittests/test_reg_mask_donut_anchor_11.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_00.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_01.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_02.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_03.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_04.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_05.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_06.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_10.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_11.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_13.sli'... Success
+  Running test 'unittests/test_reg_mask_grid_anchor_15.sli'... Success
+  Running test 'unittests/test_reg_mask_rect_00.sli'... Success
+  Running test 'unittests/test_reg_mask_rect_01.sli'... Success
+  Running test 'unittests/test_reg_mask_rect_02.sli'... Success
+  Running test 'unittests/test_reg_mask_rect_10.sli'... Success
+  Running test 'unittests/test_reg_mask_rect_11.sli'... Success
+  Running test 'unittests/test_rng_seeds.sli'... Success
+  Running test 'unittests/test_round.sli'... Success
+  Running test 'unittests/test_rows_cols_pos.sli'... Success
+  Running test 'unittests/test_set_Vm.sli'... Success
+  Running test 'unittests/test_set_delay_extrema.sli'... Success
+  Running test 'unittests/test_set_start_stop_origin.sli'... Success
+  Running test 'unittests/test_set_tics.sli'... Success
+  Running test 'unittests/test_setconnections_threads.sli'... Success
+  Running test 'unittests/test_sinusoidal_gamma_generator.sli'... Success
+  Running test 'unittests/test_sinusoidal_poisson_generator.sli'... Success
+  Running test 'unittests/test_sli_neuron.sli'... Success
+  Running test 'unittests/test_sort.sli'... Success
+  Running test 'unittests/test_spike_det_reset.sli'... Success
+  Running test 'unittests/test_spike_detector.sli'... Success
+  Running test 'unittests/test_spike_dilutor.sli'... Success
+  Running test 'unittests/test_spike_generator.sli'... Success
+  Running test 'unittests/test_spike_poisson_ps.sli'... Success
+  Running test 'unittests/test_spike_poisson_ps_base2.sli'... Success
+  Running test 'unittests/test_spike_transmission_ps.sli'... Success
+  Running test 'unittests/test_spike_transmission_ps_iaf.sli'... Success
+  Running test 'unittests/test_spin_detector.sli'... Success
+  Running test 'unittests/test_stdp_synapse.sli'... Success
+  Running test 'unittests/test_step_current_generator.sli'... Success
+  Running test 'unittests/test_steppedsim.sli'... Success
+  Running test 'unittests/test_symmetric_connections.sli'... Success
+  Running test 'unittests/test_syn_hom_w.sli'... Success
+  Running test 'unittests/test_thread_local_ids.sli'... Success
+  Running test 'unittests/test_threaded_multimeter.sli'... Success
+  Running test 'unittests/test_threaded_spike_detector.sli'... Success
+  Running test 'unittests/test_time_input.sli'... Success
+  Running test 'unittests/test_tsodyks_depressing.sli'... Success
+  Running test 'unittests/test_tsodyks_facilitating.sli'... Success
+  Running test 'unittests/test_two_devices.sli'... Success
+  Running test 'unittests/test_voltmeter_reset.sli'... Success
+  Running test 'unittests/test_weight_delay.sli'... Success
+  Running test 'unittests/test_weight_delay_free.sli'... Success
+  Running test 'unittests/test_wfr_settings.sli'... Success
+
+Phase 4: Running regression tests
+---------------------------------
+  Running test 'regressiontests/issue-105.sli'... Success
+  Running test 'regressiontests/issue-1085.sli'... Success
+  Running test 'regressiontests/issue-1100.sli'... Success
+  Running test 'regressiontests/issue-1140.sli'... Success
+  Running test 'regressiontests/issue-1212.sli'... Success
+  Running test 'regressiontests/issue-1242.sli'... Success
+  Running test 'regressiontests/issue-1305.sli'... Success
+  Running test 'regressiontests/issue-1366.sli'... Success
+  Running test 'regressiontests/issue-211.sli'... Success
+  Running test 'regressiontests/issue-264.sli'... Success
+  Running test 'regressiontests/issue-311.sli'... Success
+  Running test 'regressiontests/issue-327.sli'... Success
+  Running test 'regressiontests/issue-351.sli'... Success
+  Running test 'regressiontests/issue-368.sli'... Success
+  Running test 'regressiontests/issue-410.sli'... Success
+  Running test 'regressiontests/issue-437.sli'... Success
+  Running test 'regressiontests/issue-521.sli'... Success
+  Running test 'regressiontests/issue-545.sli'... Success
+  Running test 'regressiontests/issue-596.sli'... Success
+  Running test 'regressiontests/issue-659.sli'... Success
+  Running test 'regressiontests/issue-665.sli'... Success
+  Running test 'regressiontests/issue-707.sli'... Success
+  Running test 'regressiontests/issue-708.sli'... Success
+  Running test 'regressiontests/issue-735.sli'... Success
+  Running test 'regressiontests/issue-737-threads.sli'... Success
+  Running test 'regressiontests/issue-737.sli'... Success
+  Running test 'regressiontests/issue-740.sli'... Success
+  Running test 'regressiontests/issue-77.sli'... Success
+  Running test 'regressiontests/issue-832.sli'... Success
+  Running test 'regressiontests/issue-888.sli'... Success
+  Running test 'regressiontests/ticket-156.sli'... Success
+  Running test 'regressiontests/ticket-157.sli'... Success
+  Running test 'regressiontests/ticket-235.sli'... Success
+  Running test 'regressiontests/ticket-293.sli'... Success
+  Running test 'regressiontests/ticket-310.sli'... Success
+  Running test 'regressiontests/ticket-333.sli'... Success
+  Running test 'regressiontests/ticket-349.sli'... Success
+  Running test 'regressiontests/ticket-382.sli'... Success
+  Running test 'regressiontests/ticket-386.sli'... Success
+  Running test 'regressiontests/ticket-396.sli'... Success
+  Running test 'regressiontests/ticket-414.sli'... Success
+  Running test 'regressiontests/ticket-421.sli'... Success
+  Running test 'regressiontests/ticket-433.sli'... Success
+  Running test 'regressiontests/ticket-451.sli'... Success
+  Running test 'regressiontests/ticket-452.sli'... Success
+  Running test 'regressiontests/ticket-459.sli'... Success
+  Running test 'regressiontests/ticket-464.sli'... Success
+  Running test 'regressiontests/ticket-466.sli'... Skipped
+  Running test 'regressiontests/ticket-475.sli'... Success
+  Running test 'regressiontests/ticket-478.sli'... Success
+  Running test 'regressiontests/ticket-481.sli'... Success
+  Running test 'regressiontests/ticket-507.sli'... Success
+  Running test 'regressiontests/ticket-514.sli'... Success
+  Running test 'regressiontests/ticket-537.sli'... Success
+  Running test 'regressiontests/ticket-564.sli'... Success
+  Running test 'regressiontests/ticket-566.sli'... Success
+  Running test 'regressiontests/ticket-573.sli'... Success
+  Running test 'regressiontests/ticket-580.sli'... Success
+  Running test 'regressiontests/ticket-618.sli'... Success
+  Running test 'regressiontests/ticket-619.sli'... Success
+  Running test 'regressiontests/ticket-638.sli'... Success
+  Running test 'regressiontests/ticket-643.sli'... Success
+  Running test 'regressiontests/ticket-673.sli'... Success
+  Running test 'regressiontests/ticket-681.sli'... Success
+  Running test 'regressiontests/ticket-683.sli'... Success
+  Running test 'regressiontests/ticket-686-positive-parameters.sli'... Success
+  Running test 'regressiontests/ticket-689.sli'... Success
+  Running test 'regressiontests/ticket-692-getconnections-args.sli'... Success
+  Running test 'regressiontests/ticket-710.sli'... Success
+  Running test 'regressiontests/ticket-716.sli'... Success
+  Running test 'regressiontests/ticket-733.sli'... Success
+  Running test 'regressiontests/ticket-737.sli'... Success
+  Running test 'regressiontests/ticket-754.sli'... Success
+  Running test 'regressiontests/ticket-772.sli'... Success
+  Running test 'regressiontests/ticket-777.sli'... Success
+  Running test 'regressiontests/ticket-784.sli'... Success
+  Running test 'regressiontests/ticket-785.sli'... Success
+  Running test 'regressiontests/ticket-787.sli'... Success
+  Running test 'regressiontests/ticket-798.sli'... Success
+  Running test 'regressiontests/ticket-80-175-179.sli'... Success
+  Running test 'regressiontests/ticket-800.sli'... Success
+  Running test 'regressiontests/ticket-85.sli'... Success
+  Running test 'regressiontests/ticket-881.sli'... Success
+  Running test 'regressiontests/ticket-903.sli'... Success
+  Running test 'regressiontests/ticket-921.sli'... Success
+  Running test 'regressiontests/ticket-926.sli'... Success
+  Running test 'regressiontests/ticket-933.sli'... Success
+  Running test 'regressiontests/ticket-941.sli'... Success
+  Running test 'regressiontests/ticket-949.sli'... Success
+  Running test 'regressiontests/ticket-959.sli'... Success
+  Running test 'regressiontests/issue-779-1016.py'... Success
+
+Phase 5: Running MPI tests
+--------------------------
+  Not running MPI tests because NEST was compiled without support
+  for distributed computing. See the file README.md for details.
+
+Phase 7: Running PyNEST tests.
+------------------------------
+
+  Nosetests unavailable. Using fallback test harness.
+  Fewer tests will be excuted.
+
+  Running test test_Connect_Array_Fixed_Indegree...
+  Running test test_Connect_Array_Fixed_Outdegree...
+  Running test test_CopyModel...
+  Running test test_ModelCreate...
+/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/lib/python3.8/site-packages/nest/lib/hl_api_helper.py:125: UserWarning:
+The iaf_psc_alpha_canon model is deprecated and will be removed in a future
+version of NEST, use iaf_psc_alpha_ps instead.
+  Running test test_ModelCreateN...
+  Running test test_ModelCreateNdict...
+  Running test test_ModelDicts...
+  Running test test_DivisionByZero...
+  Running test test_InvalidNodeCollection...
+  Running test test_Raise...
+  Running test test_StackUnderFlow...
+  Running test test_UnknownModel...
+  Running test test_UnknownNode...
+  Running test test_EventsSpikes...
+  Running test test_EventsVoltage...
+  Running test test_facetshw_stdp...
+  Running test test_GetConnections...
+  Running test test_GetConnectionsSourceModels...
+  Running test test_GetConnectionsTargetModels...
+  Running test test_get_verbosity...
+  Running test test_set_verbosity...
+  Running test test_GetDefaults_JSON...
+  Running test test_GetKernelStatus_JSON...
+  Running test test_GetStatus_JSON...
+  Running test test_GetLabeledSynapses...
+  Running test test_SetLabelToNotLabeledSynapse...
+  Running test test_SetLabelToSynapseOnConnect...
+  Running test test_SetLabelToSynapseSetDefaults...
+  Running test test_SetLabelToSynapseSetStatus...
+  Running test test_ConnectPrePost...
+  Running test test_ConnectPrePostParams...
+  Running test test_ConnectPrePostWD...
+  Running test test_IllegalConnection...
+  Running test test_UnexpectedEvent...
+  Running test test_ParrotNeuronIncomingMultiplicity...
+  Running test test_ParrotNeuronSTDPProtocolDepression...
+  Running test test_ParrotNeuronSTDPProtocolPotentiation...
+  Running test test_ParrotNeuronIncomingMultiplicity...
+  Running test test_ParrotNeuronSTDPProtocolDepression...
+  Running test test_ParrotNeuronSTDPProtocolPotentiation...
+  Running test test_adapting_threshold...
+  Running test test_random_dead_time...
+  Running test test_rate_and_fixed_dead_time...
+  Running test test_pp_psc_delta_stdp...
+  Running test test_QuantalSTPSynapse...
+  Running test test_exponential...
+  Running test test_lognormal...
+  Running test test_normal...
+  Running test test_uniform...
+  Running test test_rate_copy_model...
+  Running test test_rate_instantaneous_and_delayed...
+  Running test test_refractory_time...
+  Running test test_split_match...
+  Running test test_Count...
+  Running test test_PushPop...
+  Running test test_PushPop_NumPy...
+  Running test test_stack_checker...
+  Running test test_GetDefaults...
+  Running test test_GetKernelStatus...
+  Running test test_GetStatus...
+  Running test test_SetDefaults...
+  Running test test_SetKernelStatus...
+  Running test test_SetStatus...
+  Running test test_SetStatusList...
+  Running test test_SetStatusParam...
+  Running test test_SetStatusV_th_smaller_V_reset...
+  Running test test_SetStatusVth_E_L...
+  Running test test_ParrotNeuronSTDPProtocolDepression...
+  Running test test_ParrotNeuronSTDPProtocolPotentiation...
+  Running test test_Threads...
+  Running test test_ThreadsGetConnections...
+  Running test test_ThreadsGetEvents...
+  Running test testDefinedSenders...
+  Running test testDefinedTargets...
+  Running test testDefinedTargetsAndSenders...
+  Running test testMultapses...
+  Running test testMultipleThreads...
+  Running test testRPorts...
+  Running test testSingleThread...
+
+  PyNEST tests: 357
+     Passed: 347
+     Skipped: 9
+     Failed: 1
+
+Phase 8: Running C++ tests (experimental)
+-----------------------------------------
+  Not running C++ tests because NEST was compiled without Boost.
+
+NEST Testsuite Summary
+----------------------
+  NEST Executable: /home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest
+  SLI Executable : /home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/sli
+  Total number of tests: 648
+     Passed: 636
+     Skipped: 10 (9 PyNEST)
+     Failed: 2 (1 PyNEST)
+
+***
+*** There were errors detected during the run of the NEST test suite!
+***
+*** Please report the problem at
+***     https://github.com/nest/nest-simulator/issues
+***
+*** To help us diagnose the problem, please attach the archived content
+*** of these directories to the issue:
+***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports'
+***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports/nest.EbuAM'
+***
+
+CMakeFiles/installcheck.dir/build.make:77: recipe for target 'CMakeFiles/installcheck' failed
+make[3]: *** [CMakeFiles/installcheck] Error 1
+CMakeFiles/Makefile2:580: recipe for target 'CMakeFiles/installcheck.dir/all' failed
+make[2]: *** [CMakeFiles/installcheck.dir/all] Error 2
+CMakeFiles/Makefile2:587: recipe for target 'CMakeFiles/installcheck.dir/rule' failed
+make[1]: *** [CMakeFiles/installcheck.dir/rule] Error 2
+Makefile:195: recipe for target 'installcheck' failed
+make: *** [installcheck] Error 2
