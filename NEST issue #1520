@@ -1,5 +1,3 @@
-
-
 Phase 1: Testing if SLI can execute scripts and report errors
 -------------------------------------------------------------
   Running test 'selftests/test_pass.sli'... Success
@@ -130,288 +128,288 @@ Phase 3: Running NEST unit tests
   Running test 'unittests/test_multithreading.sli'... Success
   Running test 'unittests/test_neurons_handle_multiplicity.sli'... Success
   Running test 'unittests/test_node_collection.sli'... Running '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest' '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/share/doc/nest/unittests/test_node_collection.sli'
-[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
-[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
+[INFO] [2020.4.22 1:54:52 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
+[INFO] [2020.4.22 1:54:52 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
 NEST master@79f8df296 (C) 2004 The NEST Initiative
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     No node collection without nodes
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Create returns NodeCollection
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check length of NodeCollections from Create
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check that NodeCollection can be converted to array
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check array can be converted to NodeCollection for existing neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check intvector can be converted to NodeCollection for existing neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check unsorted array can be converted to NodeCollection for existing
     neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check unsorted array can be converted to NodeCollection for existing
     neurons, multiple types
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check contiguous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check contiguous join with inverted order
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check non-contiguous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check inhomogeneous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Illegal join with different metadata
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check create with multiple equal node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join primitives with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join composites with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join primitive with composite with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join composite with primitive with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check element access
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check too large positive index fails
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check too large negative index fails
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test iteration with forall
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test iteration with Map
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test slicing with Take, primitive
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test slicing with Take, composite
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     More complex Take example, checking result in various ways
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 1
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 2
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 3
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with negative step
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select all
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select none
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select some
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Element membership
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     GetStatus on collection
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection with multiple dicts
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection with multiple dicts error
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Basic Connect test
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check connect with sliced composite with step>1
 NodeCollection(metadata=None,
                model=proxynode, size=16, first=0, last=196, step=6;
                model=iaf_psc_exp, size=3, first=202, last=214, step=6)
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check that Connect checks NC validity, first arg
 
-Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+Apr 22 01:54:52 unittest::fail_or_die [Fatal]:
     Code block failed to raise an error.
     Code block:
     {<< >> begin (Check that Connect checks NC validity, first arg) M_PROGRESSmessage ResetKernel /n /iaf_psc_alpha 5 Create def ResetKernel /m /iaf_psc_alpha 5 Create def n m Connect end}
 
-Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+Apr 22 01:54:52 unittest::fail_or_die [Fatal]:
     Exiting with code 3.
 Failed: tested code block failed to fail
 ==================================================
 Following is the full output of the test:
 ==================================================
 Running '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest' '/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/share/doc/nest/unittests/test_node_collection.sli'
-[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
-[INFO] [2020.4.21 23:25:9 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
+[INFO] [2020.4.22 1:54:52 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:208 @ Network::create_rngs_] : Creating default RNGs
+[INFO] [2020.4.22 1:54:52 /home/sepehrmn/code/sepehrmn-github/nest-simulator/src/nestkernel/rng_manager.cpp:251 @ Network::create_grng_] : Creating new default global RNG
 NEST master@79f8df296 (C) 2004 The NEST Initiative
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     No node collection without nodes
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Create returns NodeCollection
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check length of NodeCollections from Create
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check that NodeCollection can be converted to array
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check array can be converted to NodeCollection for existing neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check intvector can be converted to NodeCollection for existing neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check unsorted array can be converted to NodeCollection for existing
     neurons
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check unsorted array can be converted to NodeCollection for existing
     neurons, multiple types
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check contiguous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check contiguous join with inverted order
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check non-contiguous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check inhomogeneous join
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Illegal join with different metadata
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check create with multiple equal node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join primitives with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join composites with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join primitive with composite with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check join composite with primitive with overlapping node IDs
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check element access
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check too large positive index fails
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check too large negative index fails
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test iteration with forall
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test iteration with Map
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test slicing with Take, primitive
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test slicing with Take, composite
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     More complex Take example, checking result in various ways
 
-Apr 21 23:25:09 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 1
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 2
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with out-of-bound value 3
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Slice attempt with negative step
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select all
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select none
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Test select some
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Element membership
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     GetStatus on collection
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection with multiple dicts
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     SetStatus on collection with multiple dicts error
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Basic Connect test
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check connect with sliced composite with step>1
 NodeCollection(metadata=None,
                model=proxynode, size=16, first=0, last=196, step=6;
                model=iaf_psc_exp, size=3, first=202, last=214, step=6)
 
-Apr 21 23:25:10 SLI [Progress]:
+Apr 22 01:54:52 SLI [Progress]:
     Check that Connect checks NC validity, first arg
 
-Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+Apr 22 01:54:52 unittest::fail_or_die [Fatal]:
     Code block failed to raise an error.
     Code block:
     {<< >> begin (Check that Connect checks NC validity, first arg) M_PROGRESSmessage ResetKernel /n /iaf_psc_alpha 5 Create def ResetKernel /m /iaf_psc_alpha 5 Create def n m Connect end}
 
-Apr 21 23:25:10 unittest::fail_or_die [Fatal]:
+Apr 22 01:54:52 unittest::fail_or_die [Fatal]:
     Exiting with code 3.
 ==================================================
   Running test 'unittests/test_noise_generator.sli'... Success
@@ -595,95 +593,623 @@ Phase 5: Running MPI tests
 Phase 7: Running PyNEST tests.
 ------------------------------
 
-  Nosetests unavailable. Using fallback test harness.
-  Fewer tests will be excuted.
+  Using nosetests.
 
-  Running test test_Connect_Array_Fixed_Indegree...
-  Running test test_Connect_Array_Fixed_Outdegree...
-  Running test test_CopyModel...
-  Running test test_ModelCreate...
-/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/lib/python3.8/site-packages/nest/lib/hl_api_helper.py:125: UserWarning:
-The iaf_psc_alpha_canon model is deprecated and will be removed in a future
-version of NEST, use iaf_psc_alpha_ps instead.
-  Running test test_ModelCreateN...
-  Running test test_ModelCreateNdict...
-  Running test test_ModelDicts...
-  Running test test_DivisionByZero...
-  Running test test_InvalidNodeCollection...
-  Running test test_Raise...
-  Running test test_StackUnderFlow...
-  Running test test_UnknownModel...
-  Running test test_UnknownNode...
-  Running test test_EventsSpikes...
-  Running test test_EventsVoltage...
-  Running test test_facetshw_stdp...
-  Running test test_GetConnections...
-  Running test test_GetConnectionsSourceModels...
-  Running test test_GetConnectionsTargetModels...
-  Running test test_get_verbosity...
-  Running test test_set_verbosity...
-  Running test test_GetDefaults_JSON...
-  Running test test_GetKernelStatus_JSON...
-  Running test test_GetStatus_JSON...
-  Running test test_GetLabeledSynapses...
-  Running test test_SetLabelToNotLabeledSynapse...
-  Running test test_SetLabelToSynapseOnConnect...
-  Running test test_SetLabelToSynapseSetDefaults...
-  Running test test_SetLabelToSynapseSetStatus...
-  Running test test_ConnectPrePost...
-  Running test test_ConnectPrePostParams...
-  Running test test_ConnectPrePostWD...
-  Running test test_IllegalConnection...
-  Running test test_UnexpectedEvent...
-  Running test test_ParrotNeuronIncomingMultiplicity...
-  Running test test_ParrotNeuronSTDPProtocolDepression...
-  Running test test_ParrotNeuronSTDPProtocolPotentiation...
-  Running test test_ParrotNeuronIncomingMultiplicity...
-  Running test test_ParrotNeuronSTDPProtocolDepression...
-  Running test test_ParrotNeuronSTDPProtocolPotentiation...
-  Running test test_adapting_threshold...
-  Running test test_random_dead_time...
-  Running test test_rate_and_fixed_dead_time...
-  Running test test_pp_psc_delta_stdp...
-  Running test test_QuantalSTPSynapse...
-  Running test test_exponential...
-  Running test test_lognormal...
-  Running test test_normal...
-  Running test test_uniform...
-  Running test test_rate_copy_model...
-  Running test test_rate_instantaneous_and_delayed...
-  Running test test_refractory_time...
-  Running test test_split_match...
-  Running test test_Count...
-  Running test test_PushPop...
-  Running test test_PushPop_NumPy...
-  Running test test_stack_checker...
-  Running test test_GetDefaults...
-  Running test test_GetKernelStatus...
-  Running test test_GetStatus...
-  Running test test_SetDefaults...
-  Running test test_SetKernelStatus...
-  Running test test_SetStatus...
-  Running test test_SetStatusList...
-  Running test test_SetStatusParam...
-  Running test test_SetStatusV_th_smaller_V_reset...
-  Running test test_SetStatusVth_E_L...
-  Running test test_ParrotNeuronSTDPProtocolDepression...
-  Running test test_ParrotNeuronSTDPProtocolPotentiation...
-  Running test test_Threads...
-  Running test test_ThreadsGetConnections...
-  Running test test_ThreadsGetEvents...
-  Running test testDefinedSenders...
-  Running test testDefinedTargets...
-  Running test testDefinedTargetsAndSenders...
-  Running test testMultapses...
-  Running test testMultipleThreads...
-  Running test testRPorts...
-  Running test testSingleThread...
+  Create with empty parameter dictionary ... ok
+  GetConnection works as expected ... ok
+  GetConnection raises a TypeError when called with 0 ... ok
+  GetConnection with sliced works NodeCollections ... ok
+  NodeCollections index function ... ok
+  Membership in NodeCollections ... ok
+  Conversion from NodeCollection to list ... ok
+  Test that SetStatus and GetStatus works as expected with ... ok
+  NodeCollection apply ... ok
+  NodeCollection apply with positions ... ok
+  Tests composite NodeCollection with patched node IDs ... ok
+  A NESTError is raised when trying to add a sliced composite and ... ok
+  Connect works with NodeCollections ... ok
+  Multiple NodeCollection calls give right indexing ... ok
+  len function on NodeCollection ... ok
+  Equality of NodeCollections ... ok
+  Index of NodeCollections ... ok
+  Iteration of NodeCollections ... ok
+  Conversion from list to NodeCollection ... ok
+  Correct NodeCollection model ... ok
+  Senders and targets for weight recorder works as NodeCollection and list ... ok
+  Slices of NodeCollections ... ok
+  test_closeness_nest_lsodar (nest.tests.test_aeif_lsodar.AEIFTestCase) ... ok
+  test_iaf_dc_input (nest.tests.test_aeif_lsodar.AEIFTestCase) ... ok
+  test_iaf_spike_input (nest.tests.test_aeif_lsodar.AEIFTestCase) ... ok
+  Time objects in models correctly updated ... ok
+  Getting error when changing tic-base in prohibited conditions ...
+  Apr 22 01:56:34 SimulationManager::set_status [Error]:
+  Apr 22 01:56:34 SimulationManager::set_status [Error]:
+  Apr 22 01:56:34 SimulationManager::set_status [Error]:
+  Apr 22 01:56:34 SimulationManager::set_status [Error]:
+  Ensures that the restriction to supported neuron models works. ... ok
+  Ensure that depression and facilitation work correctly ... ok
+  Ensure that spikes are properly processed ... ok
+  testWithMPI (nest.tests.test_connect_all_patterns.TestConnectAllPatterns) ... SKIP: NEST was compiled without MPI
+  testAutapsesFalse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testAutapsesTrue (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testConnectivity (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testDefaultParams (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testDelaySetting (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testHtSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testInputArray (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testInputArrayRPort (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testInputArrayToStdpSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testInputArrayWithoutAutapses (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testRPortDistribution (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testRPortSetting (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testStdpSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testSynapseSetting (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testWeightSetting (nest.tests.test_connect_all_to_all.TestAllToAll) ... ok
+  testAutapsesFalse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_all_to_all.transplant_class.<locals>.C) ... ok
+  Tests of connections with fixed indegree and parameter arrays ... ok
+  Tests of connections with fixed outdegree and parameter arrays ... ok
+  Connecting NumPy arrays of node IDs ... ok
+  Connecting NumPy arrays with additional syn_spec params ... ok
+  Raises exception when not using integer value for receptor_type ... ok
+  Connecting NumPy arrays without specifying delays ... ok
+  Connecting NumPy arrays without specifying weights ... ok
+  Connecting NumPy arrays with specified receptor_type ... ok
+  Connecting NumPy arrays, threaded ... ok
+  Raises exception when connecting NumPy arrays with unknown nodes ... ok
+  Raises exception when connecting arrays with wrong array type ... ok
+  Raises exception when connecting NumPy arrays with wrong dtype ... ok
+  testBinomialClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testBinomialDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testExponentialClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testExponentialDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testGammaClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testGammaDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testGslBinomialDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testLognormalClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testLognormalDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testNormalClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testNormalDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testPoissonClippedDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testPoissonDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testUniformDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testUniformIntDist (nest.tests.test_connect_distributions.TestDists) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testErrorMessages (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testInDegree (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testMultapsesFalse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testMultapsesTrue (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStatistics (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_indegree.TestFixedInDegree) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_indegree.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testErrorMessages (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testMultapsesFalse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testMultapsesTrue (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testOutDegree (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStatistics (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_outdegree.TestFixedOutDegree) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_outdegree.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testErrorMessages (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStatistics (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testTotalNumberOfConnections (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_total_number.TestFixedTotalNumber) ... ok
+  testAutapsesFalse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_fixed_total_number.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testAutapsesTrue (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testConnectivity (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testDefaultParams (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testDelaySetting (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testHtSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testInputArray (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testInputArrayRPort (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testInputArrayToStdpSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testRPortSetting (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testStdpSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testSymmetricFlag (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testSynapseSetting (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testWeightSetting (nest.tests.test_connect_one_to_one.TestOneToOne) ... ok
+  testAutapsesFalse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_one_to_one.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testAutapsesTrue (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testDefaultParams (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testDelaySetting (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testHtSynapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testRPortSetting (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStatistics (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStdpSynapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testSynapseSetting (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testWeightSetting (nest.tests.test_connect_pairwise_bernoulli.TestPairwiseBernoulli) ... ok
+  testAutapsesFalse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testAutapsesTrue (nest.tests.test_connect_parameters.TestParams) ... ok
+  testDefaultParams (nest.tests.test_connect_parameters.TestParams) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_parameters.TestParams) ... ok
+  testDelaySetting (nest.tests.test_connect_parameters.TestParams) ... ok
+  testHtSynapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_parameters.TestParams) ... ok
+  testRPortSetting (nest.tests.test_connect_parameters.TestParams) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_parameters.TestParams) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_parameters.TestParams) ... ok
+  testStdpSynapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_parameters.TestParams) ... ok
+  testSynapseSetting (nest.tests.test_connect_parameters.TestParams) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_parameters.TestParams) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_parameters.TestParams) ... ok
+  testWeightSetting (nest.tests.test_connect_parameters.TestParams) ... ok
+  testAutapsesFalse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testAutapsesTrue (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDefaultParams (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testDelaySetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testHtSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testRPortSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testSynapseSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testWeightSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.transplant_class.<locals>.C) ... ok
+  testAutapsesFalse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testAutapsesTrue (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testDefaultParams (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testDelayAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testDelaySetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testHtSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testMakeSymmetric (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testMultapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testQuantalStpSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testRPortAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testRPortSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStatistics (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStdpDopamineSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStdpFacetshwSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStdpPlSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStdpSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testStdpSynapseHom (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testSynapseSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testTsodyks2Synapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testTsodyksSynapse (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testWeightAllSynapses (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  testWeightSetting (nest.tests.test_connect_symmetric_pairwise_bernoulli.TestSymmetricPairwiseBernoulli) ... ok
+  CopyModel ... ok
+  Model Creation ... ok
+  Model Creation with N ... ok
+  Model Creation with N and dict ... ok
+  IAF Creation with N and dicts ... ok
+  One-to-one connectivity using CGConnect with id intvectors ... SKIP: NEST was built without support for libneurosim
+  One-to-one connectivity using CGConnect with paramters ... SKIP: NEST was built without support for libneurosim
+  One-to-one connectivity using CGConnect with synmodel ... SKIP: NEST was built without support for libneurosim
+  One-to-one connectivity using CGConnect with id tuples ... SKIP: NEST was built without support for libneurosim
+  Error handling of CGConnect in case of unknown nodes ... SKIP: NEST was built without support for libneurosim
+  Error handling of CGConnect in case of unknown synapse model ... SKIP: NEST was built without support for libneurosim
+  Check get recordables ... ok
+  Check the length and contents of recorded current vectors ... ok
+  simulates erfc neuron for different parameter sets and compares ... ok
+  Division by zero ... ok
+  Invalid NodeCollection ... FAIL
+  Error raising ... ok
+  Stack underflow ... ok
+  Unknown model name ... ok
+  Unknown node ... ok
+  Spike Events ... ok
+  Voltage Events ... ok
+  Test that get function works as expected. ... ok
+  Test that get function with json output works as expected. ... ok
+  Test get using getattr ... ok
+  Test that get function works on composite NodeCollections ... ok
+  Test get with different input for different sizes of NodeCollections ... ok
+  Test that get function with Pandas output works as expected. ... SKIP: Pandas package is not available
+  Test that get works on sliced NodeCollections ... ok
+  Test that set function works as expected. ... ok
+  Test set using setattr ... ok
+  Test that set works on composite NodeCollections ... ok
+  GetConnections ... ok
+  test GetNodes ... ok
+  test GetNodes with params ... ok
+  Check LIF model ... ok
+  Check LIF_ASC model ... ok
+  Check LIF_R model ... ok
+  Check LIF_R_ASC model ... ok
+  Check LIF_R_ASC_A model ... ok
+  Check LIF model ... ok
+  Check LIF_ASC model ... ok
+  Check LIF_R model ... ok
+  Check LIF_R_ASC model ... ok
+  Check LIF_R_ASC_A model ... ok
+  test_get_verbosity (nest.tests.test_helper_functions.TestHelperFunctions) ... ok
+  test_set_verbosity (nest.tests.test_helper_functions.TestHelperFunctions) ... ok
+  JSON data of GetDefaults ... ok
+  JSON data of KernelStatus ... ok
+  JSON data of GetStatus ... ok
+  Get labeled synapses with GetConnections. ... ok
+  Try set a label to an 'un-label-able' synapse. ... ok
+  Set a label to a labeled synapse on connect. ... ok
+  Set a label to a labeled synapse on SetDefaults. ... ok
+  Set a label to a labeled synapse on SetStatus. ... ok
+  testNeuron (nest.tests.test_mc_neuron.TestMCNeuron) ... ok
+  Test SetStatus with dict with list that is not to be split ... ok
+  Test SetStatus with dict ... ok
+  Test SetStatus with multivalue dict ... ok
+  Test SetStatus with dict with bool ... ok
+  Test SetStatus with dict with list of bools ... ok
+  Test SetStatus with dict with lists ... ok
+  Test SetStatus with dict with numpy ... ok
+  Test SetStatus with dict with single element lists ... ok
+  Test SetStatus with dict with list ... ok
+  Test SetStatus with list of dicts ... ok
+  Test SetStatus with dict with random.uniform ... ok
+  Test SetStatus with val as random.uniform ... ok
+  Test dimension specific connection distance parameter ... ok
+  Test connection distance parameter ... ok
+  Test connection distance parameter with wrong dimension ... ok
+  Test parameter in conn_spec ... ok
+  Test cosine of a parameter ... ok
+  Test Create with different parameters added ... ok
+  Test Create with random.exonential as parameter ... ok
+  Test Create with random.lognormal as parameter ... ok
+  Test Create with random.normal as parameter ... ok
+  Test Create with random.uniform as parameter ... ok
+  Test Create with list as parameter ... ok
+  Test Create with numpy array as parameter ... ok
+  Test Create with several lists as parameters ... ok
+  Test Create with list that should not be split ... ok
+  Test exponential of a parameter ... ok
+  Test max of parameter ... ok
+  Test min of parameter ... ok
+  Test node-position parameter ... ok
+  Test node-position parameter with wrong dimension ... ok
+  Parameter apply function ... ok
+  Test parameter arithmetic ... ok
+  Test comparison of parameters ... ok
+  Test conditional parameter ... ok
+  Test conditional parameter with scalars ... ok
+  Test parameter is_spatial function ... ok
+  Test positions specified by parameter ... ok
+  Test redraw of parameter ... ok
+  Test redraw of parameter with impossible to satisfy limits ... ok
+  Test redraw of parameter with wrong limits ... ok
+  Test set with dict with list that is not to be split ... ok
+  Test set with dict with list with bool ... ok
+  Test set with dict with lists ... ok
+  Test set with dict with single element lists ... ok
+  Test set with dict with list ... ok
+  Test set with dict with random parameter ... ok
+  Test set with random parameter as val ... ok
+  Test sine of a parameter ... ok
+  Test source and target position parameter ... ok
+  Test source and target position parameter with wrong arguments ... ok
+  Test parameter in syn_spec ... ok
+  Connect pre to post ... ok
+  Connect pre to post with a params dict ... ok
+  Connect pre to post with a weight and delay ... ok
+  Wrong Connections ... ok
+  Unexpected Event ... ok
+  test_add (nest.tests.test_parameter.TestParameter) ... ok
+  test_div (nest.tests.test_parameter.TestParameter) ... ok
+  test_mul (nest.tests.test_parameter.TestParameter) ... ok
+  test_neg (nest.tests.test_parameter.TestParameter) ... ok
+  test_radd (nest.tests.test_parameter.TestParameter) ... ok
+  test_rmul (nest.tests.test_parameter.TestParameter) ... ok
+  test_rsub (nest.tests.test_parameter.TestParameter) ... ok
+  test_rsub_all_neg (nest.tests.test_parameter.TestParameter) ... ok
+  test_sub (nest.tests.test_parameter.TestParameter) ... ok
+  Check parrot_neuron heeds multiplicity information in incoming spikes. ... ok
+  Check post-pre spike pairings between parrot_neurons ... ok
+  Check pre-post spike pairings between parrot_neurons ... ok
+  Check parrot_neuron ignores spikes on port 1 ... ok
+  Check parrot_neuron correctly repeats multiple spikes ... ok
+  Check parrot_neuron repeats spikes on port 0 ... ok
+  Check parrot_neuron heeds multiplicity information in incoming spikes. ... ok
+  Check post-pre spike pairings between parrot_neurons decrement ... ok
+  Check pre-post spike pairings between parrot_neurons increments ... ok
+  Statistical test of poisson_generator_ps rate change ... ok
+  Check if threshold adaptation works by looking for negative serial ... ok
+  Check if random dead-time moments are respected. ... ok
+  Check for reasonable firing rate and if fixed dead-time is respected ... ok
+  Compare quantal_stp_synapse with its deterministic equivalent ... ok
+  Test exponential distribution Parameter ... ok
+  Test lognormal distribution Parameter ... ok
+  Test normal distribution Parameter ... ok
+  Test uniform distribution Parameter ... ok
+  test_rate_copy_model (nest.tests.test_rate_copy_model.RateCopyModelTestCase) ... ok
+  test_rate_instantaneous_and_delayed (nest.tests.test_rate_instantaneous_and_delayed.RateInstantaneousAndDelayedTestCase) ... ok
+  Check the mean value of the rate_neurons ... ok
+  Check noise of the rate_neurons ... ok
+  Check the variance of the rate of the rate_neuron for input noise ... ok
+  Check the parrot rate neuron with sigm non-linearity ... ok
+  Check the delay of the connection ... ok
+  Check the non-linearity of the neuron ... ok
+  Check the weight of the connection ... ok
+  Check the rectification of the output ... ok
+  Apr 22 01:57:13 RecordingBackendASCII::enroll() [Error]:
+  Test if filename is corrrectly built. ... ok
+  Test that n_events counts the number of events correctly. ... ok
+  Test if the file contains correct headers and expected content ... ok
+  Test that label replaces the model name in the file name if set. ... ok
+  testResetEventCounter (nest.tests.test_recording_backend_ascii.TestRecordingBackendASCII) ... ok
+  Check if time_in_steps works properly. ... ok
+  Test that n_events counts the number of events correctly. ... ok
+  Test if the event dict is there from the start. ... ok
+  testResetEventCounter (nest.tests.test_recording_backend_memory.TestRecordingBackendMemory) ... ok
+  testTimeInSteps (nest.tests.test_recording_backend_memory.TestRecordingBackendMemory) ... ok
+  Test reset of recording backend defaults. ... ok
+  Test availability of default recording backends. ... ok
+  Test setting of global backend properties. ... ok
+  Test that backend defaults end up in instances. ... ok
+  Test setting the default recording backend. ... ok
+  Test setting recording backend defaults. ... ok
+  Check that refractory time implementation is correct. ... ok
+  construct a network of the form: ... ok
+  Invariable number of spikes with multiple poisson generators ... ok
+  Check the rate prediction of the siegert neuron ... ok
+  test_not_implemented_rules (nest.tests.test_sp.test_conn_builder.TestSPBuilder) ... ok
+  test_synapse_initialisation_all_to_all (nest.tests.test_sp.test_conn_builder.TestSPBuilder) ... ok
+  test_synapse_initialisation_one_to_one (nest.tests.test_sp.test_conn_builder.TestSPBuilder) ... ok
+  test_synapse_deletion_one_to_one_no_sp (nest.tests.test_sp.test_disconnect.TestDisconnectSingle) ... ok
+  test_disconnect_all_to_all (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_disconnect_defaults (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_disconnect_static_synapse (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_multiple_synapse_deletion_all_to_all (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_multiple_synapse_deletion_one_to_one (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_multiple_synapse_deletion_one_to_one_no_sp (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_single_synapse_deletion_sp (nest.tests.test_sp.test_disconnect_multiple.TestDisconnect) ... ok
+  test_enable_multithread (nest.tests.test_sp.test_enable_multithread.TestEnableMultithread) ... ok
+  test_multithread_enable (nest.tests.test_sp.test_enable_multithread.TestEnableMultithread) ... ok
+  testWithMPI (nest.tests.test_sp.test_mpitests.TestStructuralPlasticityMPI) ... SKIP: NEST was compiled without MPI
+  test_PushPop_no_NumPy (nest.tests.test_stack.StackTestCase) ... SKIP: Makes no sense when NumPy package is available
+  test_stack_checker (nest.tests.test_stack.StackTestCase) ... ok
+  Check weight convergence on depression. ... ok
+  Check weight convergence on potentiation. ... ok
+  test_nn_pre_centered_synapse (nest.tests.test_stdp_nn_synapses.STDPNNSynapsesTest) ... ok
+  test_nn_restr_synapse (nest.tests.test_stdp_nn_synapses.STDPNNSynapsesTest) ... ok
+  test_nn_symm_synapse (nest.tests.test_stdp_nn_synapses.STDPNNSynapsesTest) ... ok
+  Check that exceptions are thrown when setting bad parameters. ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) decay ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) decay ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) increase ... ok
+  Check that pre and post-synaptic variables are zero at start. ... ok
+  Check that weight changes whenever a pre-post-pre spike triplet ... ok
+  Check that weight changes whenever a pre-post spike pair happen. ... ok
+  Check that exceptions are thrown when setting bad parameters. ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) decay ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) decay ... ok
+  Check that pre-synaptic variables (Kplus, Kplus_triplet) increase ... ok
+  Check that pre and post-synaptic variables are zero at start. ... ok
+  Check that weight changes whenever a pre-post-pre spike triplet ... ok
+  Check that weight changes whenever a pre-post spike pair happen. ... ok
+  test_step_rate_generator (nest.tests.test_step_rate_generator.StepRateGeneratorTestCase) ... ok
+  Test GetConnections on sliced NodeCollection ... ok
+  Test GetConnections with synapse_model ... ok
+  Test simple SynapseCollection. ... ok
+  Test get() on SynapseCollection ... ok
+  Test get on SynapseCollection with pandas output ... SKIP: Pandas package is not available
+  Test get() and set() on SynapseCollection. ... ok
+  Multiple threads ... ok
+  GetConnections with threads ... ok
+  Gathering events across threads ... ok
+  Test plot_network ... SKIP: pydot not found
+  Test raster_plot ... ok
+  Test voltage_trace from device ... ok
+  Check that exceptions are thrown when setting bad parameters. ... ok
+  Check that pre-synaptic variables Kplus decay after each post-synaptic ... ok
+  Check that pre-synaptic variables Kplus decay after each ... ok
+  Check that pre-synaptic variable, Kplus increase after each ... ok
+  Check that pre and post-synaptic variables are zero at start. ... ok
+  Check that weight changes whenever a pre-post spike pair happen. ... ok
+  Weight Recorder Defined Subset Of Senders ... ok
+  Weight Recorder Defined Subset Of Targets ... ok
+  Weight Recorder Defined Subset Of Targets and Senders ... ok
+  Weight Recorder Multapses ... ok
+  Weight Recorder Multi Threaded ... ok
+  Weight Recorder rports ... ok
+  Weight Recorder Single Threaded ... ok
+  FAIL: Invalid NodeCollection
+    File "/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/lib/python3.8/site-packages/nest/tests/test_errors.py", line 89, in test_InvalidNodeCollection
+  AssertionError: NESTError not raised by add_test_primitive
+  FAILED (SKIP=12, failures=1)
 
-  PyNEST tests: 357
-     Passed: 347
-     Skipped: 9
+  PyNEST tests: 745
+     Passed: 732
+     Skipped: 12
      Failed: 1
 
 Phase 8: Running C++ tests (experimental)
@@ -694,9 +1220,9 @@ NEST Testsuite Summary
 ----------------------
   NEST Executable: /home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/nest
   SLI Executable : /home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/sli
-  Total number of tests: 648
-     Passed: 636
-     Skipped: 10 (9 PyNEST)
+  Total number of tests: 1036
+     Passed: 1021
+     Skipped: 13 (12 PyNEST)
      Failed: 2 (1 PyNEST)
 
 ***
@@ -708,7 +1234,7 @@ NEST Testsuite Summary
 *** To help us diagnose the problem, please attach the archived content
 *** of these directories to the issue:
 ***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports'
-***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports/nest.EbuAM'
+***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports/nest.pNfQJ'
 ***
 
 CMakeFiles/installcheck.dir/build.make:77: recipe for target 'CMakeFiles/installcheck' failed
