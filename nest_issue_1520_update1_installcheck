@@ -1,0 +1,32 @@
+sli: error while loading shared libraries: libnestutil.so: cannot open shared object file: No such file or directory
+
+Phase 1: Testing if SLI can execute scripts and report errors
+-------------------------------------------------------------
+  Running test 'selftests/test_pass.sli'... /home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/sli: error while loading shared libraries: libnestutil.so: cannot open shared object file: No such file or directory
+
+Failed: unexpected exit code 127
+==================================================
+Following is the full output of the test:
+==================================================
+/home/sepehrmn/code/sepehrmn-github/nest-simulator/opt/bin/sli: error while loading shared libraries: libnestutil.so: cannot open shared object file: No such file or directory
+==================================================
+***
+*** An unexpected exit code usually hints at a bug in the test suite!
+***
+*** Please report the problem at
+***     https://github.com/nest/nest-simulator/issues
+***
+*** To help us diagnose the problem, please attach the archived content
+*** of these directories to the issue:
+***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports'
+***     - '/home/sepehrmn/code/sepehrmn-github/nest-simulator/bld/reports/nest.Gw9Zg'
+***
+
+CMakeFiles/installcheck.dir/build.make:77: recipe for target 'CMakeFiles/installcheck' failed
+make[3]: *** [CMakeFiles/installcheck] Error 2
+CMakeFiles/Makefile2:580: recipe for target 'CMakeFiles/installcheck.dir/all' failed
+make[2]: *** [CMakeFiles/installcheck.dir/all] Error 2
+CMakeFiles/Makefile2:587: recipe for target 'CMakeFiles/installcheck.dir/rule' failed
+make[1]: *** [CMakeFiles/installcheck.dir/rule] Error 2
+Makefile:195: recipe for target 'installcheck' failed
+make: *** [installcheck] Error 2
